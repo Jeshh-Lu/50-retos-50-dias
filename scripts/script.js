@@ -21,7 +21,7 @@ const cards = projectList.map((project, index) => {
             <span class="card-number">${numStr}</span>
             <h3 class="card-title">${project.name}</h3>
             <a href="./${project.urlSegment}/index.html" class="card-link">
-                Ver Demo
+                Demostración
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" class="icon" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
         </div>
