@@ -1,55 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:site_name" content="50 Retos en 50 Días" />
-        <meta property="og:title" content="50 Retos en 50 Días" />
-        <meta property="og:description" content="50 proyectos en 50 con HTML, CSS y JavaScript">
-        <meta property="og:image"
-            content="https://raw.githubusercontent.com/carlos-paezf/50_Projects_50_days/main/preview.png">
-        <meta name="twitter:title" content="50 Retos en 50 Días">
-        <meta name="twitter:description" content="50 proyectos en 50 con HTML, CSS y JavaScript">
-        <meta name="twitter:image"
-            content="https://raw.githubusercontent.com/carlos-paezf/50_Projects_50_days/main/preview.png">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="50 Días 50 Proyectos" />
+    <meta property="og:title" content="50 Días 50 Proyectos" />
+    <meta property="og:description" content="50 proyectos en 50 días con HTML, CSS y JavaScript">
+    <title>50 Días 50 Proyectos</title>
+    
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style/style.css">
+</head>
 
-        <link rel="icon" href="https://github.com/fluidicon.png" title="GitHub">
-        <link rel="stylesheet" href="style.css">
-        <title>50 Retos en 50 Días</title>
-    </head>
+<body>
+    <!-- Background glowing orbs -->
+    <div class="bg-glow"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    
+    <main class="app-container">
+        <header class="header">
+            <div class="badge">Reto Personal</div>
+            <h1>50 Días <span class="text-gradient">50 Proyectos</span></h1>
+            <p class="subtitle">Un viaje de programación front-end utilizando <strong>HTML, CSS y JavaScript</strong> sin frameworks. Cada día un nuevo reto interactivo.</p>
+            
+            <div class="author-info">
+                <span>Creado por</span>
+                <a href="https://github.com/Jeshh-Lu" target="_blank" rel="noopener noreferrer" class="social-link">
+                    @Jeshh-Lu
+                </a>
+            </div>
+        </header>
 
-    <body>
-        <div id="app">
-            <section class="title">
-                <h1>50 Retos en 50 Días</h1>
-                <h3>50 retos de programación en HTML, CSS y JavaScript</h3>
-                <h4>
-                    Abril & Mayo 2026 - <a href="https://github.com/Jeshh-Lu" target="_blank"
-                        rel="noopener noreferrer">@Jeshh-Lu</a>
-                </h4>
-            </section>
+        <section class="projects-grid" id="projects-container">
+            <!-- Project Cards go here via script.js -->
+        </section>
+    </main>
 
-
-            <span class="separate"></span>
-
-            <section class="projects">
-                <table>
-                    <thead>
-                        <tr>
-                            <td class="first"> </td>
-                            <td class="second">Proyecto</td>
-                            <td class="third">Demo en vivo</td>
-                        </tr>
-                    </thead>
-
-                    <tbody id="tbody"></tbody>
-                </table>
-            </section>
-        </div>
-
-        <script type="module" src="script.js"></script>
-    </body>
+    <script type="module" src="scripts/script.js"></script>
+</body>
 
 </html>
