@@ -23,6 +23,12 @@ La página principal funciona como un índice interactivo que se encarga de most
 
 ## 👨‍💻 Autor
 
+- Instagram: [@Jeshh](https://www.instagram.com/jeshh.xd/)
+- LinkedIn: [@Jeshh](https://www.linkedin.com/in/jeshuaolguin/)
 - GitHub: [@Jeshh-Lu](https://github.com/Jeshh-Lu)
 
 ¡Explora las carpetas, revisa el código fuente y echa un vistazo a la demostración en vivo de la página principal!
+
+## 📝 Índice de Proyectos
+
+1. [Expanding Cards](./01-Expanding_Card)
