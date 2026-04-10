@@ -161,7 +161,7 @@ h1 {
 .card-number {
     font-size: 3rem;
     font-weight: 800;
-    color: rgba(255, 255, 255, 0.05);
+    color: rgb(0, 198, 255);
     position: absolute;
     top: 1rem;
     right: 1.5rem;
@@ -170,7 +170,7 @@ h1 {
 }
 
 .card:hover .card-number {
-    color: rgba(0, 198, 255, 0.1);
+    color: rgba(0, 198, 255, 0.5);
 }
 
 .card-title {
