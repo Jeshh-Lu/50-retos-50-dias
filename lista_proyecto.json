@@ -1,6 +1,10 @@
 [
     {
-        "name": "Expanding Cards",
+        "name": "Cartas Expansibles",
         "urlSegment": "01-Expanding_Card"
+    },
+    {
+        "name": "",
+        "urlSegment": ""
     }
 ]
