@@ -170,7 +170,7 @@ h1 {
 }
 
 .card:hover .card-number {
-    color: rgba(0, 198, 255, 0.5);
+    color: rgba(0, 198, 255, 0.25);
 }
 
 .card-title {
