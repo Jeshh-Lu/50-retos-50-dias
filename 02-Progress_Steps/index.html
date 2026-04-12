@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="https://github.com/fluidicon.png" title="GitHub">
-    <link rel="stylesheet" href="style.css">
-    <title>Pasos del Progreso</title>
-</head>
-<body>
-    <div class="contenedor">
-        <div class="contenedor-pasos">
-            <div class="paso activo">1</div>
-            <div class="paso">2</div>
-            <div class="paso">3</div>
-            <div class="paso">4</div>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://github.com/fluidicon.png" title="GitHub">
+        <title>Pasos del Progreso</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="progress-container">
+                <div class="progress" id="progress"></div>
+                <div class="circle active">1</div>
+                <div class="circle">2</div>
+                <div class="circle">3</div>
+                <div class="circle">4</div>
+            </div>
+
+            <button class="btn" id="prev" disabled>Anterior</button>
+            <button class="btn" id="next">Siguiente</button>
         </div>
-    </div>
-    <script src="script.js"></script>
-</body>
+
+        <script src="script.js"></script>
+    </body>
+
 </html>
