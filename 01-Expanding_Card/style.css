@@ -10,6 +10,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contenedor {
