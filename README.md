@@ -31,4 +31,5 @@ La página principal funciona como un índice interactivo que se encarga de most
 
 ## 📝 Índice de Proyectos
 
-1. [Expanding Cards](./01-Expanding_Card)
+1. [Expanding Cards](./01-Expanding_Card) 🎨
+2. [Pasos del Progreso](./02-Progress_Steps) 🎯

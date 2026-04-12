@@ -4,6 +4,10 @@
         "urlSegment": "01-Expanding_Card"
     },
     {
+        "name": "Pasos del Progreso",
+        "urlSegment": "02-Progress_Steps"
+    },
+    {
         "name": "",
         "urlSegment": ""
     }
