@@ -33,3 +33,5 @@ La página principal funciona como un índice interactivo que se encarga de most
 
 1. [Expanding Cards](./01-Expanding_Card) 🎨
 2. [Pasos del Progreso](./02-Progress_Steps) 🎯
+3. [Animación de Navegación Giratoria](./03-Rotating_Navigation_Animation) 🔄
+

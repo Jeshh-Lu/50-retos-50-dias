@@ -8,6 +8,10 @@
         "urlSegment": "02-Progress_Steps"
     },
     {
+        "name": "Animación de Navegación Giratoria",
+        "urlSegment": "03-Rotating_Navigation_Animation"
+    },
+    {
         "name": "",
         "urlSegment": ""
     }
